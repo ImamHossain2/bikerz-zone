@@ -4,20 +4,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bikerz Zone</title>
+    <title>Biker Zone Website Design</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
+
         <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
     
       </head>
       <body class="container-lg">
 
       <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-transparent">
           <div class="container-fluid ">
-            <a class="navbar-brand fw-bold" href="#">Biker Zone</a>
+            <a class="navbar-brand fs-5 fw-bolder" href="#">Biker Zone</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,17 +38,17 @@
                   <a class="nav-link">Blogs</a>
                 </li>
               </ul>
-                <button class="btn btn-outline-primary ms-5" type="submit">Log In</button>
+                <button class="btn btn-outline-danger opacity-10 ms-5" type="submit">Log In</button>
             </div>
           </div>
         </nav>
 
         <!-- banner slider -->
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide bg-danger bg-opacity-10 p-5  rounded" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row bg-body-secondary rounded-5">
+              <div class="row rounded-5">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                   <div>
                     <h1>Ride-On R15 V4 with Smile</h1>
@@ -60,7 +62,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="row bg-body-secondary rounded-5">
+              <div class="row">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                   <div>
                     <h1>Ride-On R15 V4 with Smile</h1>
@@ -74,7 +76,7 @@
               </div>
             </div>
             <div class="carousel-item ">
-              <div class="row bg-body-secondary rounded-5">
+              <div class="row">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                   <div>
                     <h1>Ride-On R15 V4 with Smile</h1>
@@ -91,8 +93,119 @@
         </div>
       </header>
 
+
+        <!-- Header End here  -->
+
+
       <main>
       
+          <!-- Hot bikes Sections -->
+
+          <section class="text-center text-sm-center mt-5">
+            <h1>Trending Bikes</h1>
+            <p class="text-danger bg-opacity-10">Best Bike Collection</p>
+            <hr class="w-50 mx-auto border-danger bg-opacity-10">
+
+            <div class="row row-cols-1 row-cols-md-3 g-1 mt-5 px-5">
+              <div class="col">
+                <img class="w-100" src="/images/feature-bike.jpg" alt="">
+              </div>
+              <div class="col">
+                <img class="w-75" src="/images/feature-bike.jpg" alt="">
+              </div>
+              <div class="col">
+                <img class="w-100" src="/images/feature-bike.jpg" alt="">
+              </div>
+            </div>
+          </section>
+
+          <!-- Hot bikes Section End -->
+
+
+          <!-- New Arrival Bikes Section -->
+
+          <section class="bg-danger bg-opacity-10 rounded mt-2 px-3">
+            <h1 class="text-center mt-5 py-5">New Arrival</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 rounded-4">
+                  <img src="/images/bike-1.png"
+                   class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-body">
+                    <button type="button" class="btn btn-outline-danger btn-opacity-10">Purchase</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-4">
+                  <img src="/images/bike-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-body">
+                    <button type="button" class="btn btn-outline-danger btn-opacity-10">Purchase</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-4">
+                  <img src="/images/bike-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-body">
+                    <button type="button" class="btn btn-outline-danger btn-opacity-10">Purchase</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- New Arrival Section End -->
+
+          <!-- Happy Clients Section  -->
+
+          <section class="mt-5 ">
+            <h1 class="text-center py-5">Happy Clients</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 ">
+                  <img src="/images/user-1.png" class="card-img-top w-25 mx-auto pt-5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/images/user-2.png" class="card-img-top w-25 mx-auto pt-5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a short card.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/images/user-3.png" class="card-img-top w-25 mx-auto pt-5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
       </main>
 
       <footer>
